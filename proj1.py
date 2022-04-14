@@ -36,3 +36,6 @@ if answer == "graphics display unit":
     score += 1
 else:
     print("incorrect!")
+
+print("You got " + str(score) + " questions correct!")
+print("You got " + str((score / 4)*100) + "%")
