@@ -9,25 +9,25 @@ print("Okay! Make we play :)")
 
 answer = input("What does FTP stand for? ")
 if answer == "file transfer protocol":
-    print('correct')
+    print('correct!')
 else:
-    print('Incorrect, try again.')
+    print('Incorrect!')
 
 
-answer = input("What is the full meaning of cpu? ")
-if answer == "control processing unit":
-    print("correct")
+answer = input("What is the full meaning of RAM? ")
+if answer == "random access memory":
+    print("correct!")
 else:
-    print("incorrect, try again")
-
-answer = input("What is the full meaning of cpu? ")
-if answer == "control processing unit":
-    print("correct")
-else:
-    print("incorrect, try again")
+    print("incorrect!")
 
 answer = input("What is the full meaning of cpu? ")
 if answer == "control processing unit":
-    print("correct")
+    print("correct!")
 else:
-    print("incorrect, try again")
+    print("incorrect!")
+
+answer = input("What does GPU stand for? ")
+if answer == "graphics display unit":
+    print("correct!")
+else:
+    print("incorrect!")
