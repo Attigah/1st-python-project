@@ -1,21 +1,17 @@
 import random
+top_of_range = input("Type a number: ")
 
-
-
-highest_range = input("Type a number: ")
-if highest_range.isdigit():
-     highest_range = int(highest_range)
-
-     if highest_range <= 0:
-        print("please type a number higher than 0 ")
-        quit()
-
-
-else:
-    print("please type a number next time ")
+if top_of_range.isdigit():
+    top_of_range = int(top_of_range)
+    print('Please type a number larger than 0 next time. ')
     quit()
 
+else:
+    print('Please type a number next time. ')
+    quit()
 
+random_number = random.randint(0, top_of_range)
 
-yourRandnum = random.randint(0, highest_range)
-print(yourRandnum)
+while True:
+    user_guess = input("make a guess: ")
+    
