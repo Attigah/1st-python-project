@@ -1,12 +1,12 @@
 import random
 
-yourRandnum = random.randrange(-10, 26)
+
 
 highest_range = input("Type a number: ")
 if highest_range.isdigit():
-    highest_range = int(highest_range)
+     highest_range = int(highest_range)
 
-    if highest_range <= 0:
+     if highest_range <= 0:
         print("please type a number higher than 0 ")
         quit()
 
@@ -17,3 +17,5 @@ else:
 
 
 
+yourRandnum = random.randint(0, highest_range)
+print(yourRandnum)
